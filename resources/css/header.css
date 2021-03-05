@@ -1,0 +1,149 @@
+/*=============================================
+TOP
+=============================================*/
+
+#top ul li {
+	display:inline;
+	line-height:30px;
+	margin:0 5px;
+	color:white;
+}
+.social ul li a i {
+	font-size:22px;
+	margin:0 1px;
+}
+
+#logo a img {
+	margin-left: auto; 
+	margin-right: auto; 
+	width: 70%;
+}
+
+#top ul { padding-top:8px; }
+
+.navSuperior { background-color: #0597d5; }
+
+.social { margin: 10px 0; }
+
+/*=============================================
+SOCIAL NETWORKS
+=============================================*/
+
+.socialNetwork {
+	width:30px;
+	height:30px;
+	text-align: center;
+	line-height:30px;
+}
+
+/*FACEBOOK*/
+
+.facebook { 
+	color:white; 
+	border-radius: 50%;
+}
+.facebook:hover {
+	transition: all ease .5s;
+	color:white;
+	background:#46639f;
+}
+
+/*TWITTER*/
+
+.twitter { 
+	color:white;
+	border-radius: 50%; 
+}
+.twitter:hover {
+	transition: all ease .5s;
+	color:white;
+	background:#0ab2e6;	
+}
+
+/*INSTAGRAM*/
+
+.instagram { 
+	color:white;
+	border-radius: 50%; 
+}
+.instagram:hover {
+	transition: all ease .5s;
+	color:white;
+	background:linear-gradient(45deg, #fca925, #ee1d5f,  #6350a2);
+}
+
+/*YOUTUBE*/
+
+.youtube{ 
+	color:white;	
+	border-radius: 50%; 
+}
+.youtube:hover{
+	transition: all ease .5s;
+	color:white;
+	background:#d6513e;
+}
+
+/*=============================================
+LARGE DESKTOP (LG reviewed at 1366px onwards)
+=============================================*/
+
+@media (min-width:1200px) {
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img {
+		padding:20px 60px;
+		padding-left:0px;
+	}
+}
+
+/*=============================================
+MEDIUM DESKTOP OR HORIZONTAL TABLET (MD reviewed in 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px) {
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img{ width: 100%!important; }
+
+}
+
+/*=============================================
+SMALL DESKTOP OR VERTICAL TABLET (SM reviewed at 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px) {
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img { width: 100%!important; }
+	
+}
+
+/*=============================================
+MOBILE (XS we review at 320px)
+=============================================*/
+
+@media (max-width:767px) {
+
+	/*=============================================
+	TOP
+	=============================================*/
+
+	#top ul { text-align: center; }
+
+	/*=============================================
+	HEADER
+	=============================================*/
+
+	header #logo img{ width: 100%!important; }
+
+}

@@ -1,0 +1,358 @@
+/*=============================================
+GLOBAL
+=============================================*/
+* {
+	margin:0px;
+	padding:0px;
+	list-style: none;
+	text-decoration: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	-o-user-select: none;
+	user-select: none;	
+}
+
+a, h1, h2, h3, h4, h5, h6, li, span, ul { 
+	font-family: Poppins,sans-serif;
+	font-weight: 600;
+}
+
+p { font-family: Roboto,sans-serif; }
+
+ul, ol { padding:0px; }
+
+a:visited, a:link, a:focus, a:hover, a:active {
+	list-style: none;
+	text-decoration: none;
+}
+
+.btn-primary {
+	background:#0597d5!important;
+	border-color: white;
+}
+
+/*=============================================
+CONTENT
+=============================================*/
+
+.backColor, .backColor a {
+	background:#0597d5;
+	color:white;
+	border-radius: 50px;
+	margin: 10px;
+}
+
+.backColor h3 { font-size: 30px; }
+
+/*=============================================
+STUDY HABITS
+=============================================*/
+
+.question-count-box {
+	border-style: solid; 
+	border-color: #0597d5; 
+	border-width: 3px;  
+	margin: 20px; 
+	padding-top: 30px;
+}
+
+.question-count {
+	margin-top: -15px; 
+	margin-left: 20px;
+}
+
+
+.question-count p span {
+	border: solid 3px;
+	border-color: #0597d5; 
+	border-radius: 30px; 
+	margin: 0px; 
+	font-size: 30px; 
+	padding: 5px; 
+}
+
+.question {
+	margin-bottom: 15px; 
+	margin-top: -15px;
+}
+
+.question span {
+	margin: 0px; 
+	font-size: 20px;
+}
+
+.question-count p { display: inline-flex; }
+
+.input-box {
+	display: contents; 
+}
+
+.inputs-margin { margin: 10px; }
+
+/*=============================================
+NLP
+=============================================*/
+
+.content-table {
+	border: solid 3px; 
+	border-color: #0597d5; 
+	border-radius: 30px; 
+	margin: 0 20px; 
+	font-size: 30px; 
+	padding: 5px; 
+}
+
+.content-table-box { display: inline-flex; }
+
+.table { font-size: 18px; }
+
+/*=============================================
+SOCIAL-SKILLS
+=============================================*/
+
+.question-b span {
+	margin: 0px; 
+	font-size: 20px; 
+	color: #0597d5;
+}
+
+.input-box-b {
+	margin-top: -10px; 
+	margin-bottom: 10px;
+}
+
+.radio-margin { 
+	display: initial;
+	margin-left: 3px; 
+}
+
+.question-b { margin-bottom: 10px; }
+
+.inputs-margin-b { margin-left: 90px; }
+
+/*=============================================
+VPI
+=============================================*/
+
+.vpi {
+	font-size: 24px;
+	margin:10px;
+	text-align:center!important;
+}
+
+.form-title {
+	font-size: 24px;
+	margin: 10px;
+	text-align:center;
+}
+
+.form-title span {
+	color: 0070C0;
+}
+
+.content {
+	font-size: 18px;
+	margin: 10px;
+}
+
+.content-vpi {
+	background-color:gray;
+	text-align:center;
+}
+
+.list-vpi {
+	font-size: 18px; 
+	margin-top: 30px; 
+	margin-left: 20px; 
+	margin-right: 10px; 
+	margin-bottom:01px
+}
+
+.list-vpi {
+	font-size: 18px; 
+	margin-top: 01px; 
+	margin-left: 20px; 
+	margin-right: 10px; 
+	margin-bottom:01px
+}
+
+.list-vpi-top { 
+	font-size: 18px; 
+	margin-top: 30px; 
+	margin-left: 20px; 
+	margin-right: 10px; 
+	margin-bottom: 01px
+}
+
+.list-vpi-bottom { 
+	font-size: 18px; 
+	margin-top: 01px; 
+	margin-left: 20px; 
+	margin-right: 10px; 
+	margin-bottom: 30px
+}
+
+.table-vpi { margin: 0 auto; }
+
+.list-vpi span, .list-vpi-top span, .list-vpi-bottom span { color: blue; }
+
+/*=============================================
+OVERLAY
+=============================================*/
+
+#overlay img {
+	width: 32px;
+	height: 32px;
+}
+
+#overlay { text-align:center!important; }
+
+/*=============================================
+ERROR 404
+=============================================*/
+
+.error404 { color:#333; }
+
+/*=============================================
+PAGINATION STYLES
+=============================================*/
+
+.pagination {
+	margin:20px 0;
+}
+ 
+.pagination ul {
+	list-style:none;
+	text-align: center;
+}
+ 
+.pagination ul li {
+	display:inline-block;
+	margin-right:2px;
+}
+ 
+.pagination ul li input {
+	display:block;
+	padding:5px 10px;
+	color:#fff;
+	background:#0597d5;
+	text-decoration: none;
+	border-width: 0px;
+	border-style: none;
+	border-image: none;
+}
+
+.pagination ul li input:hover {
+	background:#0070C0;
+}
+ 
+.pagination ul li .active {
+	background:#0070C0;
+	font-weight:bold;
+	border: 2px solid #000;
+	border-radius: 3.5px;
+}
+
+/*=============================================
+LARGE DESKTOP (LG reviewed at 1366px onwards)
+=============================================*/
+
+@media (min-width:1200px){
+
+	.font-responsive {
+		font-size: 22px;
+	}
+
+	.error404 h1 {
+		font-size:300px;
+		text-shadow:8px 8px 1px #dadada;
+	}
+
+	.col-lg-0 { display: none; }
+	
+}
+
+/*=============================================
+MEDIUM DESKTOP OR HORIZONTAL TABLET (MD reviewed in 1024px)
+=============================================*/
+
+@media (max-width:1199px) and (min-width:992px) {
+
+	.font-responsive {
+		font-size: 22px;
+	}
+	
+	.error404 h1 {
+		font-size:200px;
+		text-shadow:6px 6px 1px #dadada;
+	}
+
+	.col-md-0 { display: none; }
+
+}
+
+/*=============================================
+SMALL DESKTOP OR VERTICAL TABLET (SM reviewed at 768px)
+=============================================*/
+
+@media (max-width:991px) and (min-width:768px) {
+
+	.font-responsive {
+		font-size: 22px;
+	}
+
+	.error404 h1 {
+		font-size:150px;
+		text-shadow:4px 4px 1px #dadada;
+	}
+
+	.col-sm-0 { display: none; }
+
+}
+
+/*=============================================
+MOBILE (XS we review at 320px)
+=============================================*/
+
+@media (max-width:767px){
+
+	
+	.block-responsive { 
+		margin: 20px 0; 
+		padding-left: 0!important;
+		padding-right: 0!important;
+	}
+	
+	.box { 
+		margin:0 4px!important;
+		padding:0!important;
+	}
+	
+	.error404 h1 {
+		font-size:75px;
+		text-shadow:2px 2px 1px #dadada;
+	}
+
+	.inputs-margin-b { margin-left: 0px; }
+
+	.font-responsive { font-size: 14px; }
+
+	#logotipo { display: none; }
+
+	p, span { font-size: 14px!important; }
+
+	span { text-align:center!important; }
+
+	.text-center { font-size: 25px!important; }
+
+	.btnRegistro { margin:0!important; }
+
+	.box > p > span { margin:0 5px!important;}
+
+	.row { margin:20px 0px!important; }
+
+	.col-xs-0 { display: none; }
+
+}
